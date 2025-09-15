@@ -43,7 +43,7 @@ const Leaderboard = () => {
 
   useEffect(() => {
     const sheetUrl =
-      "https://docs.google.com/spreadsheets/d/15zEvIiFIZUSzD4UozChS8gmZxmo9GyfmfFRelmRu0Hw/export?format=csv"; // replace with your sheet link
+      "https://docs.google.com/spreadsheets/d/15zEvIiFIZUSzD4UozChS8gmZxmo9GyfmfFRelmRu0Hw/export?format=csv&gid=342265121"; // replace with your sheet link
 
     fetch(sheetUrl)
       .then((res) => res.text())
