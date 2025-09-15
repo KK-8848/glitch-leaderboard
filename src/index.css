@@ -1,0 +1,23 @@
+/* src/index.css */
+@import "tailwindcss";
+@font-face {
+  font-family: 'Morton';
+  src: url('./assets/fonts/MORTON.REGULAR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Neopixel';
+  src: url('/src/assets/fonts/NEOPIXEL-REGULAR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pixelify Sans';
+  src: url('/src/assets/fonts/PIXELIFYSANS-VARIABLEFONT_WGHT.TTF') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
